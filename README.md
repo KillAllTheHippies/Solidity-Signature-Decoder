@@ -1,6 +1,6 @@
 # Solidity Signature Decoder
 
-This Node.js script recursively scans through all `.sol` (Solidity) files in a given directory and its subdirectories, calculates the keccak256 signatures for functions, custom errors, and require statements, and outputs the results in a markdown-formatted file.
+This Node.js script recursively scans through all `.sol` (Solidity) files in a given directory and its subdirectories, calculates the keccak256 signatures for all detected functions, custom errors, and require statements. The results are output in a markdown-formatted file.
 
 ## Use Cases
 
@@ -86,3 +86,7 @@ The output markdown file will have the following format:
 ```
 
 Each contract file will be separated by horizontal rules for clarity.
+
+
+## TODO
+- Create check for function selector collisions 
