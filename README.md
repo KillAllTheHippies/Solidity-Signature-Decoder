@@ -89,4 +89,14 @@ Each contract file will be separated by horizontal rules for clarity.
 
 
 ## TODO
-- Create check for function selector collisions 
+- Create check for function selector signature collisions
+- Add functionality to analyse single folders or files
+- Add option to disable recursiveness
+- Add feature to remove colliding function selector signatures or flag them as multiples(with count).
+- Create simple toggle to switch off custom error, require error or function selector analysis/data gathering.
+- Github scraping via URLs.
+- File explorer or some graphical UI to select files/folders to process.
+- Enum and environment variables in function signatures need to be handled correctly.
+
+Lots to do :)
+  
