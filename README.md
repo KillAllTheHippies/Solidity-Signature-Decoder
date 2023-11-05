@@ -89,6 +89,7 @@ Each contract file will be separated by horizontal rules for clarity.
 
 
 ## TODO
+- **Add functionality to create default solidity getter signatures for all public variables in the source code and add them to the list of functions for each contract under a different heading.**
 - Create check for function selector signature collisions
 - Add functionality to analyse single folders or files
 - Add option to disable recursiveness
@@ -96,6 +97,7 @@ Each contract file will be separated by horizontal rules for clarity.
 - Create simple toggle to switch off custom error, require error or function selector analysis/data gathering.
 - Github scraping via URLs.
 - File explorer or some graphical UI to select files/folders to process.
+- Add confirmation dialog for overwriting files, and toggle for overwrite or append.
 - Enum and environment variables in function signatures need to be handled correctly.
 
 Lots to do :)
