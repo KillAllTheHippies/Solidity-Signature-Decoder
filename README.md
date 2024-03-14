@@ -89,7 +89,7 @@ Each contract file will be separated by horizontal rules for clarity.
 
 
 ## TODO
-- **Add functionality to create default solidity getter signatures for all public variables in the source code and add them to the list of functions for each contract under a different heading.**
+- **Add functionality to create default solidity getter signatures for all public variables in the source code and add them to the list of functions for each contract under a different heading.** *_DONE see script v2_
 - Create check for function selector signature collisions
 - Add functionality to analyse single folders or files
 - Add option to disable recursiveness
